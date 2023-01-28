@@ -1,0 +1,67 @@
+body {
+    background-color:  #1C1C1C;
+    color:white;
+    font-family:'Karla', sans-serif;
+}
+
+h1 {
+    font-size:40px;
+}
+
+p {
+    font-size:20px;
+}
+
+span {
+    color: #4ADF86;
+}
+
+button {
+    position:relative;
+    top:50px;
+    background: #10B981;
+    padding: 9px 17px 9px 15px;
+    text-align:center;
+    border:0px;
+    border-radius:6px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    color:white;
+    font-size:16px;
+}
+
+.inter {
+    font-family:'Inter', sans-serif;
+}
+
+#pwmanager-container {
+    background-color:#1F2937;
+    width:550px;
+    height:550;
+    margin:auto;
+    padding:40px;
+    border-radius:3px;
+    position:relative;
+    top:20%;
+}
+
+#passwords {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    position:relative;
+    top:130px;
+    text-align:center;
+    color:#55F991;
+    font-size:16px;
+}
+
+#passwords > div {
+    background-color:#273549;
+    border-radius:6px;
+    width:90%;
+    height:40px;
+}
+
+#password-one, #password-two {
+    margin:10px;
+}
